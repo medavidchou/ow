@@ -9,11 +9,9 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-<<<<<<< HEAD
+
 module Ow
-=======
-module Overwritten
->>>>>>> c6997c01a7aa57b2266d0796e3ca61d4420f2f87
+
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
