@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Age:</b>
+  <%= @programmer.age %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%= @programmer.height %>
+</p>
+
+
+<%= link_to 'Edit', edit_programmer_path(@programmer) %> |
+<%= link_to 'Back', programmers_path %>
