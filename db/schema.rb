@@ -11,11 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+
 ActiveRecord::Schema.define(:version => 20141221220143) do
 
   create_table "programmers", :force => true do |t|
     t.string   "age"
     t.string   "height"
+
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
